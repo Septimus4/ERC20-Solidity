@@ -1,0 +1,75 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address payable",
+						"name": "_user1",
+						"type": "address"
+					},
+					{
+						"internalType": "address payable",
+						"name": "_user2",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "eth_split",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "status",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "payable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"notice": "EtherSplitter Splits transferred Ether",
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"ethers-waffle-workshops/contracts/EtherSplitter.sol": "EtherSplitter"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"ethers-waffle-workshops/contracts/EtherSplitter.sol": {
+			"keccak256": "0xa64644ccf4c5f9989d3b432dd7ce2abd65fc0e234f766a411e9b841ab9d27939",
+			"urls": [
+				"bzz-raw://928f4ed66a411187e7fdfde18f3efeeb099ecbc02b0e5a134496fcc49447753f",
+				"dweb:/ipfs/QmTg2sqc2rL9eWztjmxigGdeKNWuzZS1dnypVHSPmzkuKm"
+			]
+		}
+	},
+	"version": 1
+}
